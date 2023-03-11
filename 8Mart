@@ -1,0 +1,34 @@
+Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız
+int : Tam sayı
+float : Ondalıklı sayı
+str: metinsel veya karakter ifadeleri
+bool : Mantıksal ifadeler (Doğru ve Yanlış)
+-------------------------------------------------
+Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+Sitenin seçenekleri string ile yazılmıstır.-str
+Sitenın yuzdelerı float
+degısık egıtımlerde lıst
+------------------------------------------------
+Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+
+
+kullanici_adi = "Kevser"
+parola ="123456789"
+
+kullanici_adi1 =input("Lütfen kullanıcı adınızı giriniz")
+
+parola1= input("Lütfen Parolanızı giriniz.")
+
+if (kullanici_adi != kullanici_adi1 and parola == parola1):
+    print("Kullanıcı adınız hatalı")
+elif (kullanici_adi==kullanici_adi1 and parola != parola1):
+    print("Parolanız hatalı")
+elif (kullanici_adi != kullanici_adi1 and parola!= parola1):
+    print("Kullanıcı adınız ve parolanız hatalıdır.")
+else:
+    print("Tebrikler, Başarıyla giriş yaptınız")
+
+
+
+
+
